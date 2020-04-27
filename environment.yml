@@ -1,0 +1,16 @@
+name: games
+channels:
+ - conda-forge
+dependencies:
+ - python==3.7.6
+ - ipython
+ - jupyter
+ - matplotlib
+ - numpy
+ - yapf
+ - pymunk
+ - pip
+ - pip:
+   - pygame
+   - pgzero
+

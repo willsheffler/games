@@ -1,0 +1,20 @@
+{
+
+   "build_systems":
+   [
+      {
+         "name": "run main",
+         "shell_cmd": "cd `dirname $file`; pgzrun main.py &> $folder/sublime_build.log"
+      },
+      {
+         "name": "run file",
+         "shell_cmd": "cd `dirname $file`; pgzrun $file &> $folder/sublime_build.log"
+      },
+   ],
+	"folders":
+	[
+		{
+			"path": "/home/sheffler/src/games"
+		}
+	]
+}
